@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Calculator
+        </title>
+         <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h2>Calculator</h2>
+        <input type="text" id="display" disabled/>
+          <br>
+            <button class="button" onclick="append('7')">7</button>
+            <button class="button" onclick="append('8')">8</button>
+            <button class="button" onclick="append('9')">9</button>
+             <button class="button" onclick="append('/')">/</button>
+        <br>
+        
+            <button class="button" onclick="append('4')">4</button>
+            <button class="button" onclick="append('5')">5</button>
+            <button class="button" onclick="append('6')">6</button>
+             <button class="button" onclick="append('*')">*</button>
+        <br>
+         
+            <button class="button" onclick="append('1')">1</button>
+            <button class="button" onclick="append('2')">2</button>
+            <button class="button" onclick="append('3')">3</button>
+             <button class="button" onclick="append('-')">-</button>
+        <br>
+        
+            <button class="button clear" onclick="clearDisplay()">AC</button>
+            <button class="button" onclick="backspace()"> C </button>
+            <button class="button" onclick="append('0')">0</button>
+            <button class="button" onclick="append('+') ">+</button>
+            <button class="button equals" onclick="calculateResult()" style="width:180px">=</button>
+
+        
+        <script src ="calculator.js" > </script>
+    </body>
+
+    
+</html>
